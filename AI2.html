@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEAS Framework in AI</title>
+    <link rel="icon" href="SOLLogo.png" type="image/x-icon"> <!-- Replace with your favicon path -->
+    <link rel="stylesheet" href="AI2.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PEAS Framework in Artificial Intelligence</h1>
+            <p><strong>By-Team Solidarity</strong></p>
+            <p>Btech-AI&DS(2nd year)</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#performance">Performance Measure</a></li>
+            <li><a href="#environment">Environment</a></li>
+            <li><a href="#actuators">Actuators</a></li>
+            <li><a href="#sensors">Sensors</a></li>
+            <li><a href="#examples">Examples</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="intro" class="content">
+            <h2>Introduction</h2>
+            <p>The PEAS framework helps define the capabilities and constraints of an AI agent. It stands for Performance Measure, Environment, Actuators, and Sensors, and provides a comprehensive way to understand how AI systems interact with their surroundings.</p>
+            <div id="peas-chart" class="chart"></div>
+        </section>
+
+        <section id="performance" class="content">
+            <h2>Performance Measure</h2>
+            <p>The performance measure evaluates how well the AI agent achieves its goals. It can vary depending on the agent's application and objectives.</p>
+            <div class="flowchart">
+                <img src="images/performance-flowchart.png" alt="Performance Measure Flowchart">
+            </div>
+            <button onclick="showPerformanceExample()">See Examples</button>
+            <div id="performance-example" class="example-box"></div>
+        </section>
+
+        <section id="environment" class="content">
+            <h2>Environment</h2>
+            <p>The environment is where the AI agent operates. It includes all external factors that influence the agent's behavior and performance.</p>
+            <div class="flowchart">
+                <img src="images/environment-flowchart.png" alt="Environment Flowchart">
+            </div>
+            <button onclick="showEnvironmentExample()">See Examples</button>
+            <div id="environment-example" class="example-box"></div>
+        </section>
+
+        <section id="actuators" class="content">
+            <h2>Actuators</h2>
+            <p>Actuators are the mechanisms through which the agent acts upon the environment. They can vary widely depending on the agent's design.</p>
+            <div class="flowchart">
+                <img src="images/actuators-flowchart.png" alt="Actuators Flowchart">
+            </div>
+            <button onclick="showActuatorsExample()">See Examples</button>
+            <div id="actuators-example" class="example-box"></div>
+        </section>
+
+        <section id="sensors" class="content">
+            <h2>Sensors</h2>
+            <p>Sensors allow the AI agent to perceive its environment, gather data, and make decisions based on the information received.</p>
+            <div class="flowchart">
+                <img src="images/sensors-flowchart.png" alt="Sensors Flowchart">
+            </div>
+            <button onclick="showSensorsExample()">See Examples</button>
+            <div id="sensors-example" class="example-box"></div>
+        </section>
+
+        <section id="examples" class="content">
+            <h2>Examples</h2>
+            <p>Let's explore some examples of PEAS applied to different AI agents, such as a self-driving car, a chatbot, and a vacuum cleaner robot.</p>
+            <div class="examples-list">
+                <button onclick="showExample('car')">Self-Driving Car</button>
+                <button onclick="showExample('chatbot')">Chatbot</button>
+                <button onclick="showExample('robot')">Vacuum Cleaner Robot</button>
+            </div>
+            <div id="example-details" class="example-box"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h2>Project Team</h2>
+                <div class="footer-info">
+                <p>
+                    <span>🌟 Vishal</span><br>
+                    <span>🚀 James Vasanth Rovan</span><br>
+                    <span>✨ Jenish</span><br>
+                    <span>🎯 Febin.S.Samuel</span><br>
+                    <span>🌸 Gopika</span><br>
+                    <span>🌻 Vinisha</span>
+                </p>
+            </div>
+            </div>
+            <div class="footer-about">
+                <h3>About AI & DS Department</h3>
+                <p>Our department fosters innovation and creativity in Artificial Intelligence and Data Science, preparing students to lead in the evolving tech landscape.</p>
+                <p>Committed to excellence in teaching and research, we aim to bridge the gap between academia and industry, nurturing the next generation of AI professionals.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AI & DS Batch. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="AI2.js" ></script>
+</body>
+</html>
