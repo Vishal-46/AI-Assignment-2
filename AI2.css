@@ -10,9 +10,10 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    background-image: radial-gradient(circle at 90% 24%, rgba(209, 209, 209,0.04) 0%, rgba(209, 209, 209,0.04) 50%,rgba(160, 160, 160,0.04) 50%, rgba(160, 160, 160,0.04) 100%),radial-gradient(circle at 91% 63%, rgba(45, 45, 45,0.04) 0%, rgba(45, 45, 45,0.04) 50%,rgba(87, 87, 87,0.04) 50%, rgba(87, 87, 87,0.04) 100%),radial-gradient(circle at 17% 2%, rgba(124, 124, 124,0.04) 0%, rgba(124, 124, 124,0.04) 50%,rgba(117, 117, 117,0.04) 50%, rgba(117, 117, 117,0.04) 100%),linear-gradient(88deg, rgb(33, 20, 105),rgb(1, 15, 13));
 }
 
-/* Header Styles */
+
 header {
     background-color: #2c3e50;
     color: #fff;
@@ -27,9 +28,8 @@ header h1 {
 header p {
     font-size: 1.2rem;
 }
-
 nav {
-    background-color: #333;
+    background-color: #2c3e50;
     color: #fff;
 }
 
@@ -53,8 +53,6 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
-/* Main Content Styles */
 main {
     padding: 20px;
 }
@@ -118,6 +116,7 @@ button:hover {
     width: 100%;
     height: 400px;
 }
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -210,4 +209,117 @@ footer {
     .footer-info {
         margin-bottom: 20px;
     }
+}
+.flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.flowchart-box {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    text-align: center;
+}
+
+.arrow {
+    font-size: 24px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.flowchart-box h3 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.flowchart-box p,
+.flowchart-box ul {
+    font-size: 1rem;
+    margin: 0;
+}
+.flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.flowchart-box {
+    background-color: #1e6bab;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    text-align: center;
+}
+
+.arrow {
+    font-size: 24px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.flowchart-box h3 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.flowchart-box p,
+.flowchart-box ul {
+    font-size: 1rem;
+    margin: 0;
+}
+.peas-flowchart {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f0f4c3; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.peas-item {
+    flex: 1;
+    margin: 10px;
+    background-color: #ffffff; 
+    border: 2px solid #8bc34a; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(15, 15, 15, 0.2);
+    padding: 20px;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.peas-item:hover {
+    transform: scale(1.05);
+}
+
+.peas-item h3 {
+    color: #8bc34a; 
+}
+
+.peas-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.peas-item li {
+    background-color: #7c833e; 
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.peas-item li:hover {
+    background-color: #c0ca33; 
 }
