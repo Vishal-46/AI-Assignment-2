@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEAS Framework in AI</title>
-    <link rel="icon" href="SOLLogo.png" type="image/x-icon"> 
-    <link rel="stylesheet" href="AI2.css">
-    
-    
+    <link rel="icon" href="SOLLogo.png" type="image/x-icon"> <!-- Replace with your favicon path -->
+    <link rel="stylesheet" href="AI2.css">  
 </head>
 <body>
     <header>
@@ -30,60 +28,192 @@
     <main>
         <section id="intro" class="content">
             <h2>Introduction</h2>
-            <p>The PEAS framework helps define the capabilities and constraints of an AI agent. It stands for Performance Measure, Environment, Actuators, and Sensors, and provides a comprehensive way to understand how AI systems interact with their surroundings.</p>
-            <div id="peas-chart" class="chart"></div>
+            <p>The<strong> PEAS</strong> (Performance measure, Environment, Actuators, and Sensors) framework is an essential concept in artificial intelligence and intelligent agent design. It provides a systematic approach to defining the key components of any intelligent system, ensuring that the agent's objectives, operational context, and interaction mechanisms are clearly articulated. By breaking down an agent's functionality into these four components, developers can create more effective and efficient AI systems capable of performing complex tasks in dynamic environments. Understanding the PEAS framework is fundamental for anyone involved in AI development, as it lays the groundwork for designing intelligent agents that can successfully achieve their goals.<br></p>
+            
         </section>
 
         <section id="performance" class="content">
             <h2>Performance Measure</h2>
-            <p>The performance measure evaluates how well the AI agent achieves its goals. It can vary depending on the agent's application and objectives.</p>
-            <div class="flowchart">
-                <img src="images/performance-flowchart.png" alt="Performance Measure Flowchart">
-            </div>
-            <button onclick="showPerformanceExample()">See Examples</button>
-            <div id="performance-example" class="example-box"></div>
+            <p>The performance measure is a critical component of the PEAS framework that defines how the success of an AI agent is evaluated based on its behavior and outcomes. This measure provides a quantifiable standard against which the agent's performance can be assessed. It is tailored to the specific objectives of the agent and can vary widely across different applications. Here are some key aspects to consider:</p>
+            <section id="performance" class="content">
+                <p>The performance measure evaluates how well the AI agent achieves its goals. It can vary depending on the agent's application and objectives.</p>
+                <div class="flowchart">
+                    <div class="flowchart-box">
+                        <h3>Performance Measure</h3>
+                        <p>Criteria for Success</p>
+                    </div>
+                    <div class="arrow">↓</div>
+                    <div class="flowchart-box">
+                        <h3>Types of Measures</h3>
+                        <ul>
+                            <li>Quantitative</li>
+                            <li>Qualitative</li>
+                        </ul>
+                    </div>
+                    <div class="arrow">↓</div>
+                    <div class="flowchart-box">
+                        <h3>Factors Influencing Performance</h3>
+                        <ul>
+                            <li>Environment</li>
+                            <li>Goals</li>
+                        </ul>
+                    </div>
+                    <div class="arrow">↓</div>
+                    <div class="flowchart-box">
+                        <h3>Trade-offs</h3>
+                        <p>Balancing metrics for optimal performance.</p>
+                    </div>
+                   
+                </div>
+            </section>
+            
         </section>
 
         <section id="environment" class="content">
             <h2>Environment</h2>
-            <p>The environment is where the AI agent operates. It includes all external factors that influence the agent's behavior and performance.</p>
+            <p>The environment is a crucial element of the PEAS (Performance measure, Environment, Actuators, and Sensors) framework. It encompasses everything that an AI agent interacts with and operates within. Understanding the environment is essential for designing effective agents, as it significantly influences their behavior and performance. Here are the key aspects to consider:<br>The environment refers to the external conditions and elements that affect the agent's operation. It includes physical surroundings, other agents, and any relevant contextual factors.</p>
             <div class="flowchart">
-                <img src="images/environment-flowchart.png" alt="Environment Flowchart">
+                <section id="environment" class="content">
+                    <div class="flowchart">
+                        <div class="flowchart-box">
+                            <h3>Environment</h3>
+                            <p>External conditions affecting the agent</p>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="flowchart-box">
+                            <h3>Types of Environments</h3>
+                            <ul>
+                                <li>Static</li>
+                                <li>Dynamic</li>
+                                <li>Observable</li>
+                                <li>Partially Observable</li>
+                                <li>Discrete</li>
+                                <li>Continuous</li>
+                            </ul>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="flowchart-box">
+                            <h3>Components of the Environment</h3>
+                            <ul>
+                                <li>Objects</li>
+                                <li>Events</li>
+                                <li>State</li>
+                            </ul>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="flowchart-box">
+                            <h3>Importance in Agent Design</h3>
+                            <p>Directly influences the agent's capabilities.</p>
+                        </div>
+                        
+                    </div>
+                </section>
+                
             </div>
-            <button onclick="showEnvironmentExample()">See Examples</button>
             <div id="environment-example" class="example-box"></div>
         </section>
 
         <section id="actuators" class="content">
             <h2>Actuators</h2>
-            <p>Actuators are the mechanisms through which the agent acts upon the environment. They can vary widely depending on the agent's design.</p>
+            <p>Actuators are one of the core components of the PEAS (Performance measure, Environment, Actuators, and Sensors) framework. They are the mechanisms through which an AI agent interacts with its environment. Understanding the role and functionality of actuators is essential for developing effective agents that can execute their tasks. Below are the key aspects to consider:<br>Actuators are devices or components that enable an AI agent to take actions within its environment. They convert the agent's decisions or commands into physical movement or control.</p>
             <div class="flowchart">
-                <img src="images/actuators-flowchart.png" alt="Actuators Flowchart">
+                <section id="actuators" class="content">
+                    <div class="flowchart">
+                        <div class="flowchart-box">
+                            <h3>Actuators</h3>
+                            <p>Devices that execute actions</p>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="flowchart-box">
+                            <h3>Types of Actuators</h3>
+                            <ul>
+                                <li>Mechanical</li>
+                                <li>Electrical</li>
+                                <li>Hydraulic</li>
+                                <li>Pneumatic</li>
+                            </ul>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="flowchart-box">
+                            <h3>Functionality</h3>
+                            <p>Execute decisions made by the agent.</p>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="flowchart-box">
+                            <h3>Importance in Agent Design</h3>
+                            <p>Influences speed, precision, and range of actions.</p>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                
+                
             </div>
-            <button onclick="showActuatorsExample()">See Examples</button>
-            <div id="actuators-example" class="example-box"></div>
+            
         </section>
 
         <section id="sensors" class="content">
             <h2>Sensors</h2>
-            <p>Sensors allow the AI agent to perceive its environment, gather data, and make decisions based on the information received.</p>
+            <p>Sensors are vital components of an AI agent, enabling it to perceive and interact with its environment. They gather data from various sources, allowing the agent to make informed decisions based on the information received. The effectiveness of an AI agent heavily relies on its sensors, as they determine the quality and quantity of data that the agent can access.</p>
             <div class="flowchart">
-                <img src="images/sensors-flowchart.png" alt="Sensors Flowchart">
+                 <div class="flowchart">
+                        <div class="flowchart-item">
+                            <h3>Types of Sensors</h3>
+                            <div class="flowchart-box">Passive Sensors</div>
+                            <div class="flowchart-box">Active Sensors</div>
+                        </div>
+                        <div class="flowchart-item">
+                            <h3>Functions of Sensors</h3>
+                            <div class="flowchart-box">Data Collection</div>
+                            <div class="flowchart-box">Real-Time Monitoring</div>
+                            <div class="flowchart-box">Decision-Making Support</div>
+                            <div class="flowchart-box">Feedback Mechanism</div>
+                        </div>
+                    </div>
+                </section>
+                
             </div>
-            <button onclick="showSensorsExample()">See Examples</button>
-            <div id="sensors-example" class="example-box"></div>
         </section>
 
-        <section id="examples" class="content">
-            <h2>Examples</h2>
-            <p>Let's explore some examples of PEAS applied to different AI agents, such as a self-driving car, a chatbot, and a vacuum cleaner robot.</p>
-            <div class="examples-list">
-                <button onclick="showExample('car')">Self-Driving Car</button>
-                <button onclick="showExample('chatbot')">Chatbot</button>
-                <button onclick="showExample('robot')">Vacuum Cleaner Robot</button>
+        <section id="peas" class="content">
+            <h2>PEAS Representation for Self-Driving Car</h2>
+            <div class="peas-flowchart">
+                <div class="peas-item">
+                    <h3>Performance Measure</h3>
+                    <ul>
+                        <li>Safe Driving</li>
+                        <li>Comfort</li>
+                        <li>Efficiency</li>
+                    </ul>
+                </div>
+                <div class="peas-item">
+                    <h3>Environment</h3>
+                    <ul>
+                        <li>Roads and Highways</li>
+                        <li>Weather Conditions</li>
+                        <li>Other Vehicles</li>
+                        <li>Traffic Signals</li>
+                    </ul>
+                </div>
+                <div class="peas-item">
+                    <h3>Actuators</h3>
+                    <ul>
+                        <li>Steering System</li>
+                        <li>Braking System</li>
+                        <li>Acceleration System</li>
+                    </ul>
+                </div>
+                <div class="peas-item">
+                    <h3>Sensors</h3>
+                    <ul>
+                        <li>Lidar</li>
+                        <li>Cameras</li>
+                        <li>Radar</li>
+                    </ul>
+                </div>
             </div>
-            <div id="example-details" class="example-box"></div>
         </section>
+        
     </main>
     <footer>
         <div class="footer-container">
@@ -110,7 +240,6 @@
             <p>&copy; 2024 AI & DS Batch. All Rights Reserved.</p>
         </div>
     </footer>
-    
-    <script src="AI2.js" ></script>
+       <script src="AI2.js" ></script>
 </body>
 </html>
